@@ -1,6 +1,6 @@
-Titanic Survival Prediction using Machine Learning
+#Titanic Survival Prediction using Machine Learning
 
-Project Overview
+#Project Overview
 
 The Titanic Survival Prediction project aims to predict whether a passenger survived the Titanic disaster based on various passenger attributes such as age, gender, passenger class, fare, family information, and embarkation details.
 
@@ -10,7 +10,7 @@ The project was developed using Python and Scikit-learn and uses a Random Forest
 
 ---
 
-Problem Statement
+#Problem Statement
 
 The sinking of the RMS Titanic is one of the most well-known maritime disasters in history. Given passenger information, the objective is to build a machine learning model that can predict whether a passenger survived or not.
 
@@ -22,7 +22,7 @@ Target Variable:
 
 ---
 
-Dataset Description
+#Dataset Description
 
 The dataset contains passenger information including:
 
@@ -42,7 +42,7 @@ Survived| Survival status
 
 ---
 
-Feature Engineering
+#Feature Engineering
 
 To improve model performance, additional features were created from the original dataset.
 
@@ -81,7 +81,7 @@ This feature captures whether cabin details exist without requiring the full cab
 
 ---
 
-Data Preprocessing
+#Data Preprocessing
 
 Handling Missing Values
 
@@ -101,7 +101,7 @@ Instead of filling Cabin values, a new CabinPresent feature was created and the 
 
 ---
 
-Encoding Categorical Variables
+#Encoding Categorical Variables
 
 Machine learning algorithms require numerical input.
 
@@ -115,7 +115,7 @@ Label Encoding was used to convert text values into numerical values.
 
 ---
 
-Model Selection
+#Model Selection
 
 The Random Forest Classifier was selected because:
 
@@ -126,7 +126,7 @@ The Random Forest Classifier was selected because:
 
 ---
 
-Train-Test Split
+#-Test Split
 
 The dataset was divided into:
 
@@ -137,7 +137,7 @@ Random state was fixed to ensure reproducibility.
 
 ---
 
-Model Evaluation
+#Model Evaluation
 
 The model was evaluated using:
 
@@ -164,7 +164,7 @@ Shows the distribution of:
 
 ---
 
-Model Explainability
+#Model Explainability
 
 Feature Importance analysis was used to understand which features contributed most to the prediction.
 
@@ -181,7 +181,7 @@ This improves model transparency and interpretability.
 
 ---
 
-Model Saving
+#Model Saving
 
 The trained model was saved using Joblib.
 
@@ -193,7 +193,7 @@ This allows the model to be reused without retraining.
 
 ---
 
-Inference Example
+#Inference Example
 
 Example passenger:
 
@@ -217,7 +217,7 @@ Meaning:
 
 ---
 
-Project Structure
+#Project Structure
 
 Titanic-Survival-Prediction/
 
@@ -243,7 +243,7 @@ Titanic-Survival-Prediction/
 
 ---
 
-Technologies Used
+#Technologies Used
 
 - Python
 - Pandas
@@ -256,7 +256,7 @@ Technologies Used
 
 ---
 
-Future Improvements
+#Future Improvements
 
 - Hyperparameter tuning
 - Cross-validation
@@ -266,6 +266,6 @@ Future Improvements
 
 ---
 
-Conclusion
+#Conclusion
 
 This project successfully demonstrates a complete machine learning pipeline for Titanic Survival Prediction. The workflow includes data preprocessing, feature engineering, model training, evaluation, explainability, model persistence, and inference. The Random Forest Classifier achieved reliable performance and provides a strong foundation for future improvements and deployment.
