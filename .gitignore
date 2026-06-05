@@ -1,0 +1,51 @@
+Python cache
+
+pycache/
+*.py[cod]
+
+Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+Virtual environments
+
+venv/
+env/
+.venv/
+
+IDE settings
+
+.vscode/
+.idea/
+
+Operating system files
+
+.DS_Store
+Thumbs.db
+
+Temporary files
+
+*.tmp
+*.log
+
+Build files
+
+build/
+dist/
+
+Python packaging
+
+*.egg-info/
+
+Environment variables
+
+.env
+
+Model checkpoints (optional)
+
+*.h5
+*.ckpt
+
+Anaconda
+
+.anaconda_backup/
